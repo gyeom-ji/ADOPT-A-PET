@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF01707329727CEB00F618CD /* FindLoginAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01707229727CEB00F618CD /* FindLoginAlertViewController.swift */; };
+		CF0F60672976A4030054357B /* AbandonedNoticeInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F60662976A4030054357B /* AbandonedNoticeInsertViewController.swift */; };
+		CF14EB572987994E004669D3 /* ShelterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14EB562987994E004669D3 /* ShelterModel.swift */; };
+		CF14EB5929879956004669D3 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14EB5829879956004669D3 /* FormModel.swift */; };
+		CF14EB5B2988D12C004669D3 /* VaccineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14EB5A2988D12C004669D3 /* VaccineModel.swift */; };
+		CF14EB5D2988D547004669D3 /* VaccineTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14EB5C2988D547004669D3 /* VaccineTableCell.swift */; };
+		CF14EB5F2988D5F6004669D3 /* VaccineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14EB5E2988D5F6004669D3 /* VaccineViewController.swift */; };
+		CF29399B2983BA5200E3D865 /* ShelterStaffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF29399A2983BA5200E3D865 /* ShelterStaffModel.swift */; };
+		CF2A8DAF297BEBD9008A1E77 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A8DAE297BEBD9008A1E77 /* CheckViewController.swift */; };
+		CF305A5129712F210051B8AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A5029712F210051B8AF /* AppDelegate.swift */; };
+		CF305A5329712F210051B8AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A5229712F210051B8AF /* SceneDelegate.swift */; };
+		CF305A5529712F210051B8AF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A5429712F210051B8AF /* UIViewExtension.swift */; };
+		CF305A5829712F210051B8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF305A5629712F210051B8AF /* Main.storyboard */; };
+		CF305A5A29712F230051B8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF305A5929712F230051B8AF /* Assets.xcassets */; };
+		CF305A5D29712F230051B8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF305A5B29712F230051B8AF /* LaunchScreen.storyboard */; };
+		CF305A6A29712FDE0051B8AF /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A6929712FDE0051B8AF /* Member.swift */; };
+		CF305A6C29712FEF0051B8AF /* Vaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A6B29712FEF0051B8AF /* Vaccine.swift */; };
+		CF305A6E297130020051B8AF /* MissingNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A6D297130020051B8AF /* MissingNotice.swift */; };
+		CF305A702971300E0051B8AF /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A6F2971300E0051B8AF /* Form.swift */; };
+		CF305A722971301F0051B8AF /* RecommendMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A712971301F0051B8AF /* RecommendMaterials.swift */; };
+		CF305A742971302A0051B8AF /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A732971302A0051B8AF /* Animal.swift */; };
+		CF305A762971303B0051B8AF /* ShelterStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A752971303B0051B8AF /* ShelterStaff.swift */; };
+		CF305A782971304B0051B8AF /* Shelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A772971304B0051B8AF /* Shelter.swift */; };
+		CF305A7A2971305B0051B8AF /* AbandonedNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A792971305B0051B8AF /* AbandonedNotice.swift */; };
+		CF305A7C297135C20051B8AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A7B297135C20051B8AF /* LoginViewController.swift */; };
+		CF305A7E29714CFC0051B8AF /* UITextFieldDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF305A7D29714CFC0051B8AF /* UITextFieldDesignable.swift */; };
+		CF348886298B940C00A1519A /* Adimin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF348885298B940C00A1519A /* Adimin.swift */; };
+		CF348888298B946000A1519A /* AdminModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF348887298B946000A1519A /* AdminModel.swift */; };
+		CF34888A298BA0F200A1519A /* ShelterInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF348889298BA0F200A1519A /* ShelterInsertViewController.swift */; };
+		CF4168B7297529E5001A8FEB /* ShelterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4168B6297529E5001A8FEB /* ShelterDetailViewController.swift */; };
+		CF427929297273A900F36525 /* FindIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF427928297273A900F36525 /* FindIdViewController.swift */; };
+		CF60A2C62973EF2D00D93719 /* MissingNoticeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60A2C52973EF2D00D93719 /* MissingNoticeTableCell.swift */; };
+		CF60A2CA2973F84200D93719 /* MissingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60A2C92973F84200D93719 /* MissingDetailViewController.swift */; };
+		CF6A6B112972C08500B4EC26 /* AbandonedSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A6B102972C08500B4EC26 /* AbandonedSearchViewController.swift */; };
+		CF6A6B132972D16300B4EC26 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A6B122972D16300B4EC26 /* City.swift */; };
+		CF728AF729765C6000A15736 /* FormInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF728AF629765C6000A15736 /* FormInsertViewController.swift */; };
+		CF728AF929767EAB00A15736 /* DetailTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF728AF829767EAB00A15736 /* DetailTabelViewCell.swift */; };
+		CF9114FB298BA6EF000156EB /* VaccineInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9114FA298BA6EF000156EB /* VaccineInsertViewController.swift */; };
+		CF95BADA29862C5100080883 /* MissingNoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95BAD929862C5100080883 /* MissingNoticeModel.swift */; };
+		CF9A13EF2AFE4DA400C9BCB1 /* CustomSideMenuNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A13EE2AFE4DA400C9BCB1 /* CustomSideMenuNavigation.swift */; };
+		CF9A13F52AFE4E9C00C9BCB1 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A13F42AFE4E9C00C9BCB1 /* UIImageViewExtension.swift */; };
+		CF9A13F72AFE4EE800C9BCB1 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A13F62AFE4EE800C9BCB1 /* UIViewControllerExtension.swift */; };
+		CF9AD65A29793A7E00E67E70 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9AD65929793A7E00E67E70 /* MyInfoViewController.swift */; };
+		CF9AD65C29793E8500E67E70 /* CheckPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9AD65B29793E8500E67E70 /* CheckPasswordViewController.swift */; };
+		CFA7AC512977D6A8009F30E0 /* MissingNoticeInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7AC502977D6A8009F30E0 /* MissingNoticeInsertViewController.swift */; };
+		CFB309B829729D790024A2C4 /* AbandonedNoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB309B729729D790024A2C4 /* AbandonedNoticeModel.swift */; };
+		CFB309BD29729EFF0024A2C4 /* AbandonedNoticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB309BC29729EFF0024A2C4 /* AbandonedNoticeTableViewCell.swift */; };
+		CFB309BF2972A74A0024A2C4 /* AbandonedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB309BE2972A74A0024A2C4 /* AbandonedDetailViewController.swift */; };
+		CFB43C3D29827A2A0032E6DB /* APIConstrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB43C3B29827A2A0032E6DB /* APIConstrants.swift */; };
+		CFB917F629719DF800F4D3A4 /* ShelterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB917F529719DF800F4D3A4 /* ShelterListViewController.swift */; };
+		CFB917F829719E2900F4D3A4 /* AbandonedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB917F729719E2900F4D3A4 /* AbandonedViewController.swift */; };
+		CFB917FA29719E3300F4D3A4 /* MissingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB917F929719E3300F4D3A4 /* MissingViewController.swift */; };
+		CFB917FC29719E4000F4D3A4 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB917FB29719E4000F4D3A4 /* MypageViewController.swift */; };
+		CFD09F7F29719240006AD5E4 /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD09F7E29719240006AD5E4 /* MemberModel.swift */; };
+		CFD912B729717B900071B2F5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD912B629717B900071B2F5 /* SignUpViewController.swift */; };
+		CFDF47C72977EB7500F817F7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF47C62977EB7500F817F7 /* SettingViewController.swift */; };
+		CFE1703B297B9EC30052D534 /* FormTabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1703A297B9EC30052D534 /* FormTabelCell.swift */; };
+		CFE1703D297BAA1B0052D534 /* FormDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1703C297BAA1B0052D534 /* FormDetailViewController.swift */; };
+		CFE1703F297BBD900052D534 /* MissingSerchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1703E297BBD900052D534 /* MissingSerchViewController.swift */; };
+		CFF62AEA297413A600B60699 /* RegionAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF62AE9297413A600B60699 /* RegionAlertViewController.swift */; };
+		CFF62AEC297418C700B60699 /* ShelterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF62AEB297418C700B60699 /* ShelterTableCell.swift */; };
+		F09CCEF0E0B812CA25F9E1FE /* Pods_Abandoned_Animal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5762E0E5E97006B6531F4375 /* Pods_Abandoned_Animal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		567B24BC3E41A05F82578ED7 /* Pods-Abandoned_Animal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abandoned_Animal.release.xcconfig"; path = "Target Support Files/Pods-Abandoned_Animal/Pods-Abandoned_Animal.release.xcconfig"; sourceTree = "<group>"; };
+		5762E0E5E97006B6531F4375 /* Pods_Abandoned_Animal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abandoned_Animal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB56D2F208597E6345240D02 /* Pods-Abandoned_Animal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abandoned_Animal.debug.xcconfig"; path = "Target Support Files/Pods-Abandoned_Animal/Pods-Abandoned_Animal.debug.xcconfig"; sourceTree = "<group>"; };
+		CF01707229727CEB00F618CD /* FindLoginAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLoginAlertViewController.swift; sourceTree = "<group>"; };
+		CF0F60662976A4030054357B /* AbandonedNoticeInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbandonedNoticeInsertViewController.swift; sourceTree = "<group>"; };
+		CF14EB562987994E004669D3 /* ShelterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterModel.swift; sourceTree = "<group>"; };
+		CF14EB5829879956004669D3 /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		CF14EB5A2988D12C004669D3 /* VaccineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineModel.swift; sourceTree = "<group>"; };
+		CF14EB5C2988D547004669D3 /* VaccineTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineTableCell.swift; sourceTree = "<group>"; };
+		CF14EB5E2988D5F6004669D3 /* VaccineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineViewController.swift; sourceTree = "<group>"; };
+		CF29399A2983BA5200E3D865 /* ShelterStaffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterStaffModel.swift; sourceTree = "<group>"; };
+		CF2A8DAE297BEBD9008A1E77 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		CF305A4D29712F210051B8AF /* Abandoned_Animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abandoned_Animal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF305A5029712F210051B8AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF305A5229712F210051B8AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF305A5429712F210051B8AF /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		CF305A5729712F210051B8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF305A5929712F230051B8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF305A5C29712F230051B8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF305A5E29712F230051B8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF305A6929712FDE0051B8AF /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		CF305A6B29712FEF0051B8AF /* Vaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vaccine.swift; sourceTree = "<group>"; };
+		CF305A6D297130020051B8AF /* MissingNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNotice.swift; sourceTree = "<group>"; };
+		CF305A6F2971300E0051B8AF /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		CF305A712971301F0051B8AF /* RecommendMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMaterials.swift; sourceTree = "<group>"; };
+		CF305A732971302A0051B8AF /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		CF305A752971303B0051B8AF /* ShelterStaff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterStaff.swift; sourceTree = "<group>"; };
+		CF305A772971304B0051B8AF /* Shelter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelter.swift; sourceTree = "<group>"; };
+		CF305A792971305B0051B8AF /* AbandonedNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbandonedNotice.swift; sourceTree = "<group>"; };
+		CF305A7B297135C20051B8AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CF305A7D29714CFC0051B8AF /* UITextFieldDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldDesignable.swift; sourceTree = "<group>"; };
+		CF348885298B940C00A1519A /* Adimin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adimin.swift; sourceTree = "<group>"; };
+		CF348887298B946000A1519A /* AdminModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminModel.swift; sourceTree = "<group>"; };
+		CF348889298BA0F200A1519A /* ShelterInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterInsertViewController.swift; sourceTree = "<group>"; };
+		CF4168B6297529E5001A8FEB /* ShelterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterDetailViewController.swift; sourceTree = "<group>"; };
+		CF427928297273A900F36525 /* FindIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdViewController.swift; sourceTree = "<group>"; };
+		CF60A2C52973EF2D00D93719 /* MissingNoticeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNoticeTableCell.swift; sourceTree = "<group>"; };
+		CF60A2C92973F84200D93719 /* MissingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingDetailViewController.swift; sourceTree = "<group>"; };
+		CF6A6B102972C08500B4EC26 /* AbandonedSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbandonedSearchViewController.swift; sourceTree = "<group>"; };
+		CF6A6B122972D16300B4EC26 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		CF728AF629765C6000A15736 /* FormInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInsertViewController.swift; sourceTree = "<group>"; };
+		CF728AF829767EAB00A15736 /* DetailTabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTabelViewCell.swift; sourceTree = "<group>"; };
+		CF9114FA298BA6EF000156EB /* VaccineInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineInsertViewController.swift; sourceTree = "<group>"; };
+		CF95BAD929862C5100080883 /* MissingNoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNoticeModel.swift; sourceTree = "<group>"; };
+		CF9A13EE2AFE4DA400C9BCB1 /* CustomSideMenuNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSideMenuNavigation.swift; sourceTree = "<group>"; };
+		CF9A13F42AFE4E9C00C9BCB1 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		CF9A13F62AFE4EE800C9BCB1 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		CF9AD65929793A7E00E67E70 /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		CF9AD65B29793E8500E67E70 /* CheckPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPasswordViewController.swift; sourceTree = "<group>"; };
+		CFA7AC502977D6A8009F30E0 /* MissingNoticeInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNoticeInsertViewController.swift; sourceTree = "<group>"; };
+		CFB309B729729D790024A2C4 /* AbandonedNoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbandonedNoticeModel.swift; sourceTree = "<group>"; };
+		CFB309BC29729EFF0024A2C4 /* AbandonedNoticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbandonedNoticeTableViewCell.swift; sourceTree = "<group>"; };
+		CFB309BE2972A74A0024A2C4 /* AbandonedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbandonedDetailViewController.swift; sourceTree = "<group>"; };
+		CFB43C3B29827A2A0032E6DB /* APIConstrants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstrants.swift; sourceTree = "<group>"; };
+		CFB917F529719DF800F4D3A4 /* ShelterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterListViewController.swift; sourceTree = "<group>"; };
+		CFB917F729719E2900F4D3A4 /* AbandonedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbandonedViewController.swift; sourceTree = "<group>"; };
+		CFB917F929719E3300F4D3A4 /* MissingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingViewController.swift; sourceTree = "<group>"; };
+		CFB917FB29719E4000F4D3A4 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		CFD09F7E29719240006AD5E4 /* MemberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
+		CFD912B629717B900071B2F5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CFDF47C62977EB7500F817F7 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CFE1703A297B9EC30052D534 /* FormTabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTabelCell.swift; sourceTree = "<group>"; };
+		CFE1703C297BAA1B0052D534 /* FormDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDetailViewController.swift; sourceTree = "<group>"; };
+		CFE1703E297BBD900052D534 /* MissingSerchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingSerchViewController.swift; sourceTree = "<group>"; };
+		CFF62AE9297413A600B60699 /* RegionAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionAlertViewController.swift; sourceTree = "<group>"; };
+		CFF62AEB297418C700B60699 /* ShelterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterTableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF305A4A29712F210051B8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09CCEF0E0B812CA25F9E1FE /* Pods_Abandoned_Animal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9CF479D1950200BB979C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB56D2F208597E6345240D02 /* Pods-Abandoned_Animal.debug.xcconfig */,
+				567B24BC3E41A05F82578ED7 /* Pods-Abandoned_Animal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D6DEC6D8DF57A207487D339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5762E0E5E97006B6531F4375 /* Pods_Abandoned_Animal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF305A4429712F210051B8AF = {
+			isa = PBXGroup;
+			children = (
+				CF305A4F29712F210051B8AF /* Abandoned_Animal */,
+				CF305A4E29712F210051B8AF /* Products */,
+				1E9CF479D1950200BB979C93 /* Pods */,
+				5D6DEC6D8DF57A207487D339 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF305A4E29712F210051B8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF305A4D29712F210051B8AF /* Abandoned_Animal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF305A4F29712F210051B8AF /* Abandoned_Animal */ = {
+			isa = PBXGroup;
+			children = (
+				CF305A6729712F710051B8AF /* Model */,
+				CF9A13F12AFE4E3800C9BCB1 /* Extension */,
+				CF9A13D32AFE0B8200C9BCB1 /* Entity */,
+				CFB309BB29729EE60024A2C4 /* Cell */,
+				CF305A6629712F650051B8AF /* Network */,
+				CF305A6429712F560051B8AF /* Controller */,
+				CF305A5029712F210051B8AF /* AppDelegate.swift */,
+				CF305A5229712F210051B8AF /* SceneDelegate.swift */,
+				CF305A5629712F210051B8AF /* Main.storyboard */,
+				CF305A5B29712F230051B8AF /* LaunchScreen.storyboard */,
+				CF305A5929712F230051B8AF /* Assets.xcassets */,
+				CF305A5E29712F230051B8AF /* Info.plist */,
+			);
+			path = Abandoned_Animal;
+			sourceTree = "<group>";
+		};
+		CF305A6429712F560051B8AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF9A13F02AFE4DA700C9BCB1 /* Shelter */,
+				CF9A13ED2AFE4D9700C9BCB1 /* Form */,
+				CF9A13EC2AFE4D8C00C9BCB1 /* Vaccine */,
+				CF9A13EB2AFE4D6900C9BCB1 /* LogIn */,
+				CF9A13EA2AFE4D5E00C9BCB1 /* MyPage */,
+				CF9A13E92AFE4D4F00C9BCB1 /* MissingNotice */,
+				CF9A13E82AFE4D4200C9BCB1 /* AbandonedNotice */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF305A6629712F650051B8AF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CFB43C3B29827A2A0032E6DB /* APIConstrants.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CF305A6729712F710051B8AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFD09F7E29719240006AD5E4 /* MemberModel.swift */,
+				CF348887298B946000A1519A /* AdminModel.swift */,
+				CF29399A2983BA5200E3D865 /* ShelterStaffModel.swift */,
+				CFB309B729729D790024A2C4 /* AbandonedNoticeModel.swift */,
+				CF95BAD929862C5100080883 /* MissingNoticeModel.swift */,
+				CF14EB562987994E004669D3 /* ShelterModel.swift */,
+				CF14EB5829879956004669D3 /* FormModel.swift */,
+				CF14EB5A2988D12C004669D3 /* VaccineModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF9A13D32AFE0B8200C9BCB1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CF305A792971305B0051B8AF /* AbandonedNotice.swift */,
+				CF305A732971302A0051B8AF /* Animal.swift */,
+				CF305A6F2971300E0051B8AF /* Form.swift */,
+				CF305A6929712FDE0051B8AF /* Member.swift */,
+				CF305A6D297130020051B8AF /* MissingNotice.swift */,
+				CF305A712971301F0051B8AF /* RecommendMaterials.swift */,
+				CF305A772971304B0051B8AF /* Shelter.swift */,
+				CF305A752971303B0051B8AF /* ShelterStaff.swift */,
+				CF305A6B29712FEF0051B8AF /* Vaccine.swift */,
+				CF6A6B122972D16300B4EC26 /* City.swift */,
+				CF348885298B940C00A1519A /* Adimin.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CF9A13E82AFE4D4200C9BCB1 /* AbandonedNotice */ = {
+			isa = PBXGroup;
+			children = (
+				CFB309BE2972A74A0024A2C4 /* AbandonedDetailViewController.swift */,
+				CF0F60662976A4030054357B /* AbandonedNoticeInsertViewController.swift */,
+				CF6A6B102972C08500B4EC26 /* AbandonedSearchViewController.swift */,
+				CFB917F729719E2900F4D3A4 /* AbandonedViewController.swift */,
+			);
+			path = AbandonedNotice;
+			sourceTree = "<group>";
+		};
+		CF9A13E92AFE4D4F00C9BCB1 /* MissingNotice */ = {
+			isa = PBXGroup;
+			children = (
+				CF60A2C92973F84200D93719 /* MissingDetailViewController.swift */,
+				CFA7AC502977D6A8009F30E0 /* MissingNoticeInsertViewController.swift */,
+				CFE1703E297BBD900052D534 /* MissingSerchViewController.swift */,
+				CFB917F929719E3300F4D3A4 /* MissingViewController.swift */,
+			);
+			path = MissingNotice;
+			sourceTree = "<group>";
+		};
+		CF9A13EA2AFE4D5E00C9BCB1 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				CF9AD65B29793E8500E67E70 /* CheckPasswordViewController.swift */,
+				CF9AD65929793A7E00E67E70 /* MyInfoViewController.swift */,
+				CFB917FB29719E4000F4D3A4 /* MypageViewController.swift */,
+				CF9A13EE2AFE4DA400C9BCB1 /* CustomSideMenuNavigation.swift */,
+				CFDF47C62977EB7500F817F7 /* SettingViewController.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		CF9A13EB2AFE4D6900C9BCB1 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				CFD912B629717B900071B2F5 /* SignUpViewController.swift */,
+				CF305A7B297135C20051B8AF /* LoginViewController.swift */,
+				CF427928297273A900F36525 /* FindIdViewController.swift */,
+				CF01707229727CEB00F618CD /* FindLoginAlertViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		CF9A13EC2AFE4D8C00C9BCB1 /* Vaccine */ = {
+			isa = PBXGroup;
+			children = (
+				CF14EB5E2988D5F6004669D3 /* VaccineViewController.swift */,
+				CF9114FA298BA6EF000156EB /* VaccineInsertViewController.swift */,
+			);
+			path = Vaccine;
+			sourceTree = "<group>";
+		};
+		CF9A13ED2AFE4D9700C9BCB1 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				CF2A8DAE297BEBD9008A1E77 /* CheckViewController.swift */,
+				CFE1703C297BAA1B0052D534 /* FormDetailViewController.swift */,
+				CF728AF629765C6000A15736 /* FormInsertViewController.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		CF9A13F02AFE4DA700C9BCB1 /* Shelter */ = {
+			isa = PBXGroup;
+			children = (
+				CFF62AE9297413A600B60699 /* RegionAlertViewController.swift */,
+				CF4168B6297529E5001A8FEB /* ShelterDetailViewController.swift */,
+				CFB917F529719DF800F4D3A4 /* ShelterListViewController.swift */,
+				CF348889298BA0F200A1519A /* ShelterInsertViewController.swift */,
+			);
+			path = Shelter;
+			sourceTree = "<group>";
+		};
+		CF9A13F12AFE4E3800C9BCB1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF305A5429712F210051B8AF /* UIViewExtension.swift */,
+				CF305A7D29714CFC0051B8AF /* UITextFieldDesignable.swift */,
+				CF9A13F42AFE4E9C00C9BCB1 /* UIImageViewExtension.swift */,
+				CF9A13F62AFE4EE800C9BCB1 /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CFB309BB29729EE60024A2C4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CFB309BC29729EFF0024A2C4 /* AbandonedNoticeTableViewCell.swift */,
+				CF60A2C52973EF2D00D93719 /* MissingNoticeTableCell.swift */,
+				CFF62AEB297418C700B60699 /* ShelterTableCell.swift */,
+				CF728AF829767EAB00A15736 /* DetailTabelViewCell.swift */,
+				CFE1703A297B9EC30052D534 /* FormTabelCell.swift */,
+				CF14EB5C2988D547004669D3 /* VaccineTableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF305A4C29712F210051B8AF /* Abandoned_Animal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF305A6129712F230051B8AF /* Build configuration list for PBXNativeTarget "Abandoned_Animal" */;
+			buildPhases = (
+				BB02CB283CEDAC0CB7613A4E /* [CP] Check Pods Manifest.lock */,
+				CF305A4929712F210051B8AF /* Sources */,
+				CF305A4A29712F210051B8AF /* Frameworks */,
+				CF305A4B29712F210051B8AF /* Resources */,
+				AD656A169C882DFFBBE16ADB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abandoned_Animal;
+			productName = Abandoned_Animal;
+			productReference = CF305A4D29712F210051B8AF /* Abandoned_Animal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF305A4529712F210051B8AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CF305A4C29712F210051B8AF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CF305A4829712F210051B8AF /* Build configuration list for PBXProject "Abandoned_Animal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF305A4429712F210051B8AF;
+			productRefGroup = CF305A4E29712F210051B8AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF305A4C29712F210051B8AF /* Abandoned_Animal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF305A4B29712F210051B8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF305A5D29712F230051B8AF /* LaunchScreen.storyboard in Resources */,
+				CF305A5A29712F230051B8AF /* Assets.xcassets in Resources */,
+				CF305A5829712F210051B8AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD656A169C882DFFBBE16ADB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Abandoned_Animal/Pods-Abandoned_Animal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Abandoned_Animal/Pods-Abandoned_Animal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Abandoned_Animal/Pods-Abandoned_Animal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB02CB283CEDAC0CB7613A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Abandoned_Animal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF305A4929712F210051B8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB43C3D29827A2A0032E6DB /* APIConstrants.swift in Sources */,
+				CF34888A298BA0F200A1519A /* ShelterInsertViewController.swift in Sources */,
+				CF305A762971303B0051B8AF /* ShelterStaff.swift in Sources */,
+				CF305A702971300E0051B8AF /* Form.swift in Sources */,
+				CF728AF729765C6000A15736 /* FormInsertViewController.swift in Sources */,
+				CF305A742971302A0051B8AF /* Animal.swift in Sources */,
+				CFDF47C72977EB7500F817F7 /* SettingViewController.swift in Sources */,
+				CF305A6E297130020051B8AF /* MissingNotice.swift in Sources */,
+				CF348888298B946000A1519A /* AdminModel.swift in Sources */,
+				CF305A7A2971305B0051B8AF /* AbandonedNotice.swift in Sources */,
+				CF348886298B940C00A1519A /* Adimin.swift in Sources */,
+				CF305A5529712F210051B8AF /* UIViewExtension.swift in Sources */,
+				CFF62AEC297418C700B60699 /* ShelterTableCell.swift in Sources */,
+				CF01707329727CEB00F618CD /* FindLoginAlertViewController.swift in Sources */,
+				CF14EB5D2988D547004669D3 /* VaccineTableCell.swift in Sources */,
+				CF29399B2983BA5200E3D865 /* ShelterStaffModel.swift in Sources */,
+				CF427929297273A900F36525 /* FindIdViewController.swift in Sources */,
+				CF9A13F52AFE4E9C00C9BCB1 /* UIImageViewExtension.swift in Sources */,
+				CF305A6C29712FEF0051B8AF /* Vaccine.swift in Sources */,
+				CF9AD65C29793E8500E67E70 /* CheckPasswordViewController.swift in Sources */,
+				CFE1703D297BAA1B0052D534 /* FormDetailViewController.swift in Sources */,
+				CF14EB572987994E004669D3 /* ShelterModel.swift in Sources */,
+				CF728AF929767EAB00A15736 /* DetailTabelViewCell.swift in Sources */,
+				CF4168B7297529E5001A8FEB /* ShelterDetailViewController.swift in Sources */,
+				CF305A7E29714CFC0051B8AF /* UITextFieldDesignable.swift in Sources */,
+				CFF62AEA297413A600B60699 /* RegionAlertViewController.swift in Sources */,
+				CF6A6B112972C08500B4EC26 /* AbandonedSearchViewController.swift in Sources */,
+				CFB917F629719DF800F4D3A4 /* ShelterListViewController.swift in Sources */,
+				CFB917F829719E2900F4D3A4 /* AbandonedViewController.swift in Sources */,
+				CF305A6A29712FDE0051B8AF /* Member.swift in Sources */,
+				CF0F60672976A4030054357B /* AbandonedNoticeInsertViewController.swift in Sources */,
+				CF9A13F72AFE4EE800C9BCB1 /* UIViewControllerExtension.swift in Sources */,
+				CFD912B729717B900071B2F5 /* SignUpViewController.swift in Sources */,
+				CFB309BF2972A74A0024A2C4 /* AbandonedDetailViewController.swift in Sources */,
+				CF305A722971301F0051B8AF /* RecommendMaterials.swift in Sources */,
+				CF14EB5929879956004669D3 /* FormModel.swift in Sources */,
+				CF6A6B132972D16300B4EC26 /* City.swift in Sources */,
+				CF9AD65A29793A7E00E67E70 /* MyInfoViewController.swift in Sources */,
+				CF14EB5B2988D12C004669D3 /* VaccineModel.swift in Sources */,
+				CF2A8DAF297BEBD9008A1E77 /* CheckViewController.swift in Sources */,
+				CF9A13EF2AFE4DA400C9BCB1 /* CustomSideMenuNavigation.swift in Sources */,
+				CFB917FA29719E3300F4D3A4 /* MissingViewController.swift in Sources */,
+				CFE1703F297BBD900052D534 /* MissingSerchViewController.swift in Sources */,
+				CF60A2C62973EF2D00D93719 /* MissingNoticeTableCell.swift in Sources */,
+				CFD09F7F29719240006AD5E4 /* MemberModel.swift in Sources */,
+				CF60A2CA2973F84200D93719 /* MissingDetailViewController.swift in Sources */,
+				CF305A782971304B0051B8AF /* Shelter.swift in Sources */,
+				CF305A5129712F210051B8AF /* AppDelegate.swift in Sources */,
+				CFE1703B297B9EC30052D534 /* FormTabelCell.swift in Sources */,
+				CF14EB5F2988D5F6004669D3 /* VaccineViewController.swift in Sources */,
+				CFB309BD29729EFF0024A2C4 /* AbandonedNoticeTableViewCell.swift in Sources */,
+				CF305A7C297135C20051B8AF /* LoginViewController.swift in Sources */,
+				CF305A5329712F210051B8AF /* SceneDelegate.swift in Sources */,
+				CFB309B829729D790024A2C4 /* AbandonedNoticeModel.swift in Sources */,
+				CF9114FB298BA6EF000156EB /* VaccineInsertViewController.swift in Sources */,
+				CFA7AC512977D6A8009F30E0 /* MissingNoticeInsertViewController.swift in Sources */,
+				CF95BADA29862C5100080883 /* MissingNoticeModel.swift in Sources */,
+				CFB917FC29719E4000F4D3A4 /* MypageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF305A5629712F210051B8AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF305A5729712F210051B8AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF305A5B29712F230051B8AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF305A5C29712F230051B8AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF305A5F29712F230051B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF305A6029712F230051B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF305A6229712F230051B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB56D2F208597E6345240D02 /* Pods-Abandoned_Animal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KL4MKYX7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Abandoned_Animal/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--------.Abandoned-Animal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF305A6329712F230051B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567B24BC3E41A05F82578ED7 /* Pods-Abandoned_Animal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KL4MKYX7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Abandoned_Animal/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--------.Abandoned-Animal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF305A4829712F210051B8AF /* Build configuration list for PBXProject "Abandoned_Animal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF305A5F29712F230051B8AF /* Debug */,
+				CF305A6029712F230051B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF305A6129712F230051B8AF /* Build configuration list for PBXNativeTarget "Abandoned_Animal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF305A6229712F230051B8AF /* Debug */,
+				CF305A6329712F230051B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF305A4529712F210051B8AF /* Project object */;
+}

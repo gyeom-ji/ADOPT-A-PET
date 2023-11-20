@@ -1,0 +1,6 @@
+framework module JSPhoneFormat {
+  umbrella header "JSPhoneFormat-umbrella.h"
+
+  export *
+  module * { export * }
+}

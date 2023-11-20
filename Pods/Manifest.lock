@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (5.5.0)
+  - AnyFormatKit (2.5.2)
+  - Gifu (3.3.1)
+  - Hero (1.6.2)
+  - JSPhoneFormat (0.0.1)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - SideMenu (6.5.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5.0)
+  - AnyFormatKit
+  - Gifu
+  - Hero
+  - JSPhoneFormat
+  - RxCocoa (~> 5)
+  - RxKeyboard
+  - RxSwift (~> 5)
+  - SideMenu
+  - SnapKit (~> 5.0.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AnyFormatKit
+    - Gifu
+    - Hero
+    - JSPhoneFormat
+    - RxCocoa
+    - RxKeyboard
+    - RxRelay
+    - RxSwift
+    - SideMenu
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  AnyFormatKit: b0dbb2a5f2fe7a0fc97f401f8a219a47ee63a335
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
+  JSPhoneFormat: a809ac14c7a9301690f0f0077890ebda0f775f67
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 1a24a85fcd392ca4198a5a6d58cc8be1bd8fa94b
+
+COCOAPODS: 1.12.1
