@@ -18,7 +18,7 @@
 
 # 미리보기
 
-![Untitled](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/c7f3f459-e799-4796-9196-9016982de45a)
+![Untitled](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/f9ede9a5-82ab-46dc-a944-dad6d5e80048)
 ![248531653-59f746b4-6779-4c53-8b0c-b597f2519239](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/eb4548a1-1fae-449c-983a-7a7454c061e8)
 
 # 
