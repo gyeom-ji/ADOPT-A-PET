@@ -1,6 +1,7 @@
 <div align-center>
-<img src="https://capsule-render.vercel.app/api?type=soft&color=F7F5EA&height=200&section=header&text=ADOPT%20A%20PET%20🐾&fontColor=A2845E&fontSize=50" />
+<img width="1529" alt="258562611-8cc50d6d-cf2a-41e3-b65a-32491cbeb143" src="https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/882f0dd4-3827-4d00-bdf9-5914c88c5a42">
 </div>
+
 
 <br>
 
@@ -17,12 +18,13 @@
 
 # 미리보기
 
-![Untitled](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/6110d1d2-97d3-41f1-962b-a0aaf001fa16)
-![1](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/59f746b4-6779-4c53-8b0c-b597f2519239)
+![Untitled](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/c7f3f459-e799-4796-9196-9016982de45a)
+![248531653-59f746b4-6779-4c53-8b0c-b597f2519239](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/eb4548a1-1fae-449c-983a-7a7454c061e8)
+
 # 
-![Screenshot 2023-06-25 at 2 44 52 PM](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/1e23d926-74b2-4a7c-a5df-321e7fd7c5d7)
-![Screenshot 2023-06-25 at 2 45 30 PM](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/7a17c7b3-25ee-4ad7-a39e-321dd0ac6cff)
+![248531831-7a17c7b3-25ee-4ad7-a39e-321dd0ac6cff](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/7cab2767-304f-41ba-ac43-7861b97d5682)
+![248531871-93394c84-6b9a-40de-9a53-c7e90a393e26](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/83e80b70-431d-4963-b061-eed0952f60fc)
 
 #
-![Screenshot 2023-06-25 at 2 46 19 PM](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/93394c84-6b9a-40de-9a53-c7e90a393e26)
-![Screenshot 2023-06-25 at 2 46 32 PM](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/3b600b60-339b-4e87-9467-2a62a4f86d3d)
+![248531879-3b600b60-339b-4e87-9467-2a62a4f86d3d](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/27268b06-ca5c-4f42-a245-c0230a73f6a3)
+![248531804-1e23d926-74b2-4a7c-a5df-321e7fd7c5d7](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/425f6c44-b2c3-4416-8b84-b39775f77c6d)
