@@ -21,7 +21,7 @@
 
 
 
-<img src="https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/0ff4ba71-20fc-416a-b7b5-bae20e53eecb"  width="400" height="500"/>
+<img src="https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/0ff4ba71-20fc-416a-b7b5-bae20e53eecb"  width="350" height="600"/>
 
 ![248531653-59f746b4-6779-4c53-8b0c-b597f2519239](https://github.com/gyeom-ji/ADOPT-A-PET/assets/94424579/eb4548a1-1fae-449c-983a-7a7454c061e8)
 
